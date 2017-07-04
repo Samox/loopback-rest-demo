@@ -41,5 +41,9 @@
   "myRestModel": {
     "dataSource": "the-dumb-api",
     "public": true
+  },
+  "modelThatUsesTheAPI": {
+    "dataSource": "db",
+    "public": true
   }
 }
