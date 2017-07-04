@@ -5,8 +5,18 @@
   },
   "the-dumb-api": {
     "name": "the-dumb-api",
-    "baseURL": "http://localhost:3000",
     "crud": false,
-    "connector": "rest"
+    "connector": "rest",
+    "operations": [
+      {
+        "functions": {
+          "getStuff": []
+        },
+        "template": {
+          "method": "GET",
+          "url": "http://localhost:3000/api/Stuff"
+        }
+      }
+    ]
   }
 }
